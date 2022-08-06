@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/cursor-redux/static/js/main.be6e14c5.js",
+    "static/media/city.jpg": "/cursor-redux/static/media/city.d02e82c313b1c8ff8b07.jpg",
+    "index.html": "/cursor-redux/index.html",
+    "main.be6e14c5.js.map": "/cursor-redux/static/js/main.be6e14c5.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.be6e14c5.js"
+  ]
+}
