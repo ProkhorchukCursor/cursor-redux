@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { debounce } from "lodash";
+import { Link } from "react-router-dom";
+
+import { Box, Grid, Typography } from "@mui/material";
 
 import Contact from "../Contact";
 
 import { CONTACTS } from "../../constants";
 
 import { IContact } from "../../types";
-import { Box, Grid, Typography } from "@mui/material";
-import { Link } from "react-router-dom";
 
 interface IProps {
  search: string;

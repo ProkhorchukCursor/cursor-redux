@@ -14,8 +14,8 @@ import {
 
 import CommentIcon from "@mui/icons-material/Comment";
 import DirectionsIcon from "@mui/icons-material/Directions";
-import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 
 import { IPost } from "../../types";
 import {

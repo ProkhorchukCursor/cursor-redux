@@ -1,8 +1,4 @@
-export interface IAuthor {
- name: string;
- photo: string;
- nickname: string;
-}
+import { IAuthor } from "./IAuthor";
 
 export interface IPost {
  author: IAuthor;
@@ -13,10 +9,4 @@ export interface IPost {
  reposts: number;
  likes: number;
  id: string;
-}
-
-export interface INewPost {
- text: string;
- image: string;
- author: string;
 }

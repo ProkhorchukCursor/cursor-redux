@@ -2,13 +2,13 @@ import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { nanoid } from "nanoid";
 
+import { Box, Button, Container } from "@mui/material";
+
 import { getPosts } from "../../redux/reducers/postsReducer";
 import {
  setPost,
  setPosts,
 } from "../../redux/action-creators/postsActionCreator";
-
-import { Box, Button, Container } from "@mui/material";
 
 import { FormAddNewPost, ModalForm, Post } from "../../components";
 
